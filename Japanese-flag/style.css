@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25rem;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 25rem;
+    width: 40rem;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 20px lightgrey;
+}
+
+.symbol {
+    margin: auto;
+    background-color: red;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
