@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.options {
+    display: flex;
+}
+
+
+nav {
+    background: rgb(238,239,239);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a:hover {
+    background-color: rgb(73, 71, 71);
+    color: #fff;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    flex: auto;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: 3 , 3, 3;
+    display: block;
+    padding: 10px;   
+}
+
+nav button {
+    margin-top: 9px;
+    margin-right: 0;
+    margin-left: 90%;
+    cursor: pointer;
+}
