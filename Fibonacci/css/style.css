@@ -1,0 +1,82 @@
+body {
+    background: white;
+    height: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
+    font-size: 12px;
+}
+
+.box-increase {
+    max-width: 1500px;
+    width: 100%;
+    height: 9rem;
+    margin: 1rem;
+    background: white;
+    display: flex;
+}
+
+.box-decrease {
+    flex-direction: row-reverse;
+    max-width: 1500px;
+    width: 100%;
+    height: 9rem;
+    margin: 1rem;
+    background: #eee;
+    display: flex;
+}
+
+
+
+div .box-1 { 
+    background:rgb(100,1,1); 
+    flex: 1; 
+
+}
+div .box-2 { 
+    background:rgb(101,21,0); 
+    flex: 1; 
+
+}
+div .box-3 { 
+    background:rgb(100,41,1); 
+    flex: 1; 
+
+}
+div .box-4 { 
+    background:rgb(100,61,1); 
+    flex: 2; 
+
+}
+div .box-5 { 
+    background:rgb(100,80,0); 
+    flex: 3; 
+
+}
+div .box-6 { 
+    background:rgb(100,100,0); 
+    flex: 5; 
+
+}
+div .box-7 { 
+    background:rgb(101,121,0); 
+    flex: 8; 
+
+}
+div .box-8 { 
+    background:rgb(100,140,0); 
+    flex: 13; 
+
+}
+div .box-9 { 
+    background:rgb(101,161,1); 
+    flex: 21; 
+
+}
+div .box-10 { 
+    background:rgb(101,180,1); 
+    flex: 34; 
+
+}
